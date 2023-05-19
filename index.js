@@ -10,4 +10,6 @@ button.addEventListener("click", function () {
         behavior: "smooth", block: "center", inline: "nearest" 
     })
 })
-
+document.getElementById("input").onclick = (event) => {
+    event.preventDefault()
+}
