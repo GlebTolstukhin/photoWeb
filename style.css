@@ -1403,26 +1403,12 @@ a {
   .button:hover {
     box-shadow: 0px 0px 8px white;
     text-shadow: 0px 0px 5px black;
-    font-family: Poppins;
-    border-radius: 14px;
-    background-color: white;
-    font-size: 15px;
-    line-height: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    transition: 200ms;
   }
   .button:active {
     box-shadow: 0px 0px 8px black inset;
     text-shadow: 0px 0px 8px black;
-    font-family: Poppins;
-    border-radius: 14px;
-    background-color: white;
-    font-size: 15px;
-    line-height: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    transition: 500ms;
   }
   .sixthImg .client > img:hover {
     display: block;
